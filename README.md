@@ -55,6 +55,9 @@ A pair of .NET 8 Windows Forms apps that make it easy to split a llama.cpp model
 <img width="911" height="676" alt="Screenshot 2026-11-25 003606" src="https://github.com/user-attachments/assets/05f33385-0bc1-42fd-871f-041308a91481" />
 
 
+
+
+
 2. On the main PC, open **LlamaMaster**, download a runtime, set the spare PC's IP and the split ratio, then click *Save & Launch*.  
 
 
