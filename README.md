@@ -57,7 +57,7 @@ A pair of .NET 8 Windows Forms apps that make it easy to split a llama.cpp model
 
 ### **Quick start**
 
-1. On the spare PC, open **LlamaSlave**, click *Download / Ensure Runtime*, then *Start RPC Server*.  
+1. On a spare PC, open **LlamaSlave**, click *Download / Ensure Runtime*, then click *Start RPC Server*.  
 
 
 **RPC Server Slave:  \<- use this on any spare windows pc\!**
@@ -68,7 +68,6 @@ A pair of .NET 8 Windows Forms apps that make it easy to split a llama.cpp model
 
 
 2. On the main PC, open **LlamaMaster**, download a runtime, set the spare PC's IP and the split ratio, then click *Save & Launch*.  
-
 
 
 **Master Server: \<- use this to handle the heaviest of loads on a master pc.**
