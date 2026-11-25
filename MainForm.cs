@@ -445,7 +445,7 @@ public partial class MainForm : Form
         if (chkEnableContext.Checked)
             args.Append($"-c {numContext.Value} ");
 
-        args.Append("--no-mmproj --models-max 1 ");
+        args.Append("--models-max 1 ");
 
         if (chkEnableBatch.Checked)
         {
@@ -581,7 +581,7 @@ public partial class MainForm : Form
         sb.AppendLine($"set \"LLAMA_CACHE={txtLlamaCache.Text.Trim()}\"");
         sb.AppendLine("set \"RPC_ARGS=\"");
         sb.AppendLine($"if \"%USE_RPC%\"==\"1\" set \"RPC_ARGS=--rpc %SPARE_IP%:%RPC_PORT% --device CUDA0,RPC0 --split-mode layer -ts {numSplitMain.Value},{numSplitSpare.Value}\"");
-        sb.AppendLine("llama-server.exe --host 127.0.0.1 --port %PORT% --model-dir %LLAMA_CACHE% %RPC_ARGS% %NGL_ARG% %MOE_ARG% -c %CONTEXT% --no-mmproj --models-max 1 --batch-size %BATCH% --ubatch-size %UBATCH% --flash-attn %FLASH% %SAMPLER_ARGS% -ub 512");
+        sb.AppendLine("llama-server.exe --host 127.0.0.1 --port %PORT% --model-dir %LLAMA_CACHE% %RPC_ARGS% %NGL_ARG% %MOE_ARG% -c %CONTEXT% --models-max 1 --batch-size %BATCH% --ubatch-size %UBATCH% --flash-attn %FLASH% %SAMPLER_ARGS% -ub 1024");
         return sb.ToString();
     }
 
