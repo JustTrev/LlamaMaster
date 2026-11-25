@@ -1,4 +1,3 @@
- 
 # LlamaMaster
 # **Llama.cpp Master & Slave: GitHub Description**
 
