@@ -1,11 +1,6 @@
-# LlamaMaster
-# **Llama.cpp Master & Slave: GitHub Description**
+# LlamaMaster 
 
-Description, topics and README intro for the two WinForms tools that run llama.cpp across two PCs over RPC.
-
-## **Repo description**
-
-The short line under the repo name:
+## **Repo description** 
 
 *Windows GUI for running llama.cpp across two PCs: a Master app to configure and launch llama-server with RPC GPU splitting, and a Slave app to host the RPC server. Auto-downloads the CUDA runtime you pick.*
 
