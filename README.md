@@ -72,7 +72,7 @@ RPC server is a way to offload any active parameters across your network between
 
 ## **Check before use!**
 
-* **Task Manager:** to see how the models are loaded and split between your machines.
+* **Task Manager:** to see how the models are loaded and split across multiple machines.
 * **CUDA 13.5:** the dropdown offers 13.5, but it's unconfirmed that llama.cpp releases a zip with that exact name. If the download fails, adjust the version list to what's on the releases page.  
 * **Update checker:** it's currently a placeholder that always says you're up to date, coming soon.  
 * **Credits:** "Created by: xSoMuchPotx \+ Grok (xAI)".
