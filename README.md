@@ -61,7 +61,7 @@ A pair of .NET 8 Windows Forms apps that make it easy to split a llama.cpp model
 2. On the main PC, open **LlamaMaster**, download a runtime, set the spare PC's IP and the split ratio, then click *Save & Launch*.  
 3. Open [http\://127.0.0.1:8080](http://127.0.0.1:8080)  in your browser.
 
-**Master Server: \<- use this as a master to handle the heaviest of loads.**
+**Master Server: \<- use this to handle the heaviest of loads on a master pc.**
 
 <img width="1096" height="814" alt="Screenshot 2026-11-25 003324" src="https://github.com/user-attachments/assets/45501008-541e-47ae-82dc-a9a558a26288" />
 <img width="1085" height="811" alt="Screenshot 2026-11-25 003410" src="https://github.com/user-attachments/assets/a215c16f-f037-4677-8228-b49cb3be768f" />
