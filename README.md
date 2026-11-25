@@ -70,7 +70,9 @@ A pair of .NET 8 Windows Forms apps that make it easy to split a llama.cpp model
 
 **RPC Server Slave:  \<- use this on any spare windows pc\!**
 
-
+<img width="912" height="678" alt="Screenshot 2026-11-25 003510" src="https://github.com/user-attachments/assets/d03a26c7-c6dc-4711-b3e8-a4bfc575f941" /> 
+<img width="911" height="680" alt="Screenshot 2026-11-25 003538" src="https://github.com/user-attachments/assets/f7084797-967c-4ab2-881b-4e558b4f8543" />
+<img width="911" height="676" alt="Screenshot 2026-11-25 003606" src="https://github.com/user-attachments/assets/05f33385-0bc1-42fd-871f-041308a91481" />
 
 ## **Check before you publish**
 
