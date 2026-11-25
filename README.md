@@ -71,7 +71,7 @@ A pair of .NET 8 Windows Forms apps that make it easy to split a llama.cpp model
 
 3. Open [http\://127.0.0.1:8080](http://127.0.0.1:8080)  in your browser.
 
-RPC server is a way to offload any active parameters across your network between a slave pc's resources and it's master's resources. Combining two (or more) GPU VRAM pools into a network based VRAM cache, giving you additional head room to run bigger models without them sitting in RAM (RTX 2070 ~ GTX 1070 ti = 16GB of available VRAM split across the network). 
+RPC is a way to offload any active parameters across your network between a slave pc's resources and it's master's resources. Combining two (or more) GPU VRAM pools into a network based VRAM cache, giving you additional head room to run bigger models without them sitting in RAM (RTX 2070 ~ GTX 1070 ti = 16GB of available VRAM split across the network). 
 
 ## **Check before use!**
 
