@@ -58,8 +58,18 @@ A pair of .NET 8 Windows Forms apps that make it easy to split a llama.cpp model
 ### **Quick start**
 
 1. On the spare PC, open **LlamaSlave**, click *Download / Ensure Runtime*, then *Start RPC Server*.  
+
+
+**RPC Server Slave:  \<- use this on any spare windows pc\!**
+
+<img width="912" height="678" alt="Screenshot 2026-11-25 003510" src="https://github.com/user-attachments/assets/d03a26c7-c6dc-4711-b3e8-a4bfc575f941" /> 
+<img width="911" height="680" alt="Screenshot 2026-11-25 003538" src="https://github.com/user-attachments/assets/f7084797-967c-4ab2-881b-4e558b4f8543" />
+<img width="911" height="676" alt="Screenshot 2026-11-25 003606" src="https://github.com/user-attachments/assets/05f33385-0bc1-42fd-871f-041308a91481" />
+
+
 2. On the main PC, open **LlamaMaster**, download a runtime, set the spare PC's IP and the split ratio, then click *Save & Launch*.  
-3. Open [http\://127.0.0.1:8080](http://127.0.0.1:8080)  in your browser.
+
+
 
 **Master Server: \<- use this to handle the heaviest of loads on a master pc.**
 
@@ -68,11 +78,10 @@ A pair of .NET 8 Windows Forms apps that make it easy to split a llama.cpp model
 <img width="1086" height="812" alt="Screenshot 2026-11-25 003438" src="https://github.com/user-attachments/assets/4d53066e-5567-46f0-ae00-72ae1798b009" />
 
 
-**RPC Server Slave:  \<- use this on any spare windows pc\!**
 
-<img width="912" height="678" alt="Screenshot 2026-11-25 003510" src="https://github.com/user-attachments/assets/d03a26c7-c6dc-4711-b3e8-a4bfc575f941" /> 
-<img width="911" height="680" alt="Screenshot 2026-11-25 003538" src="https://github.com/user-attachments/assets/f7084797-967c-4ab2-881b-4e558b4f8543" />
-<img width="911" height="676" alt="Screenshot 2026-11-25 003606" src="https://github.com/user-attachments/assets/05f33385-0bc1-42fd-871f-041308a91481" />
+3. Open [http\://127.0.0.1:8080](http://127.0.0.1:8080)  in your browser.
+
+   
 
 ## **Check before use!**
 
