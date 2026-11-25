@@ -4,12 +4,6 @@
 
 *Windows GUI for running llama.cpp across two PCs: a Master app to configure and launch llama-server with RPC GPU splitting, and a Slave app to host the RPC server. Auto-downloads the CUDA runtime you pick.*
 
-## **Topics**
-
-llama-cpp llama-server rpc cuda multi-gpu winforms dotnet local-llm gguf
-
-## **README intro**
-
 # **Llama.cpp Master & Slave**
 
 A pair of .NET 8 Windows Forms apps that make it easy to split a llama.cpp model across two machines over RPC, without hand-editing .bat files.
