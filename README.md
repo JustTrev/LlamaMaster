@@ -1,4 +1,4 @@
-<img width="1096" height="814" alt="Screenshot 2026-11-25 003324" src="https://github.com/user-attachments/assets/dfa69c02-48b5-404c-9791-039c9bdd1a0c" />
+ 
 # LlamaMaster
 # **Llama.cpp Master & Slave: GitHub Description**
 
