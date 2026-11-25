@@ -78,7 +78,7 @@ A pair of .NET 8 Windows Forms apps that make it easy to split a llama.cpp model
 
 * **CUDA 13.5:** the dropdown offers 13.5, but it's unconfirmed that llama.cpp releases a zip with that exact name. If the download fails, adjust the version list to what's on the releases page.  
 * **Update checker:** it's currently a placeholder that always says you're up to date, coming soon.  
-* **Credits:** "Created by: xSoMuchPotx \+ Grok (xAI)". Put your own name or handle there and in the README.
+* **Credits:** "Created by: xSoMuchPotx \+ Grok (xAI)".
 
 * ## **Disclaimer**
 
