@@ -60,7 +60,7 @@ A pair of .NET 8 Windows Forms apps that make it easy to split a llama.cpp model
 1. On a spare PC, open **LlamaSlave**, click *Download / Ensure Runtime*, then click *Start RPC Server*.  
 
 
-**RPC Server Slave:  \<- use this on any spare pc\!**
+**RPC Server Slave:  \<- use this on any spare pc as a Slave RPC\!**
 
 <img width="912" height="678" alt="Screenshot 2026-11-25 003510" src="https://github.com/user-attachments/assets/d03a26c7-c6dc-4711-b3e8-a4bfc575f941" /> 
 <img width="911" height="680" alt="Screenshot 2026-11-25 003538" src="https://github.com/user-attachments/assets/f7084797-967c-4ab2-881b-4e558b4f8543" />
@@ -70,7 +70,7 @@ A pair of .NET 8 Windows Forms apps that make it easy to split a llama.cpp model
 2. On the main PC, open **LlamaMaster**, download a runtime, set the spare PC's IP and the split ratio, then click *Save & Launch*.  
 
 
-**Master Server: \<- use this to host llama.cpp server as the master pc\!**
+**Master Server: \<- use this to host llama.cpp RPC server and connect to your slave RPCs\!**
 
 <img width="1096" height="814" alt="Screenshot 2026-11-25 003324" src="https://github.com/user-attachments/assets/45501008-541e-47ae-82dc-a9a558a26288" />
 <img width="1085" height="811" alt="Screenshot 2026-11-25 003410" src="https://github.com/user-attachments/assets/a215c16f-f037-4677-8228-b49cb3be768f" />
@@ -80,7 +80,7 @@ A pair of .NET 8 Windows Forms apps that make it easy to split a llama.cpp model
 
 3. Open [http\://127.0.0.1:8080](http://127.0.0.1:8080)  in your browser.
 
-   
+RPC server is a way to offload any active parameters across your network between a slave pc's resources and it's master's resources. Combining two (or more) GPU VRAM pools into a network based VRAM cache (RTX 2070 + GTX 1070 ti = 16GB of available VRAM cache split across the network). 
 
 ## **Check before use!**
 
