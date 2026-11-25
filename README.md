@@ -74,8 +74,18 @@ A pair of .NET 8 Windows Forms apps that make it easy to split a llama.cpp model
 <img width="911" height="680" alt="Screenshot 2026-11-25 003538" src="https://github.com/user-attachments/assets/f7084797-967c-4ab2-881b-4e558b4f8543" />
 <img width="911" height="676" alt="Screenshot 2026-11-25 003606" src="https://github.com/user-attachments/assets/05f33385-0bc1-42fd-871f-041308a91481" />
 
-## **Check before you publish**
+## **Check before use!**
 
 * **CUDA 13.5:** the dropdown offers 13.5, but it's unconfirmed that llama.cpp releases a zip with that exact name. If the download fails, adjust the version list to what's on the releases page.  
 * **Update checker:** it's currently a placeholder that always says you're up to date, coming soon.  
-* **Credits:** "Created by: xSoMuchPotx \+ Grok (xAI)". Put your own name or handle there and in the README. 
+* **Credits:** "Created by: xSoMuchPotx \+ Grok (xAI)". Put your own name or handle there and in the README.
+
+* ## **Disclaimer**
+
+Llama.cpp Master & Slave is an independent, community project. It is not affiliated with, endorsed by, or sponsored by llama.cpp, ggml-org, or NVIDIA. All product names and trademarks belong to their respective owners.
+
+The software is provided "as is", without warranty of any kind. Use it at your own risk. The authors are not liable for any damage, data loss, hardware issues, or other problems arising from its use.
+
+* **Third-party downloads:** the runtime manager downloads llama.cpp and CUDA runtime binaries from the official llama.cpp GitHub releases. Those files are not part of this project and are subject to their own licenses.  
+* **Network security:** the RPC server accepts connections without authentication. Only run it on a trusted local network, and never expose its port to the internet.  
+* **Models:** you are responsible for complying with the license of any model you load.
