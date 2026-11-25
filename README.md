@@ -71,7 +71,17 @@ A pair of .NET 8 Windows Forms apps that make it easy to split a llama.cpp model
 
 3. Open [http\://127.0.0.1:8080](http://127.0.0.1:8080)  in your browser.
 
-RPC is a way to offload any active parameters across your local network between two pc's. Combining two (or more) GPU VRAM pools into a network based VRAM cache, giving you additional head room to run bigger models without them sitting in RAM (RTX 2070 ~ GTX 1070 ti = 16GB of available VRAM split across the network). 
+-
+
+<img width="798" height="1031" alt="image" src="https://github.com/user-attachments/assets/98a93aae-b6c4-4af2-a9bf-284fb758ac9f" />
+
+-
+
+<img width="832" height="820" alt="image" src="https://github.com/user-attachments/assets/4e167eab-a4b6-447b-8124-e493e3831b4f" />
+
+-
+
+RPC is a way to offload any active parameters across your local network between two pc's. Combining two (or more) GPU VRAM pools into a network based VRAM cache. Giving you additional head room to run bigger models without them sitting in system RAM (RTX 2070 + GTX 1070 ti = 16GB of available VRAM split across the network). 
 
 ## **Check before use!**
 
